@@ -44,7 +44,7 @@ def inicio(request):
 
 
 
-	return render(request, "inicio.html", context)
+	return render(request, "base.html", context)
 
 def contact(request):
 	form = ContactForm(request.POST or None)
